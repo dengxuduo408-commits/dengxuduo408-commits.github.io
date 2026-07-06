@@ -227,8 +227,23 @@ navbar:
         Github: https://github.com/dengxuduo408-commits
         Blog: https://ohevan.com
         Friends: /friends
-    # Links: 
-    #   icon: fa-regular fa-link
+    Friends: 
+      path: /links/
+      icon: fa-regular fa-link
+    Tags:
+      path: /tags/
+      icon: fa-solid fa-tags
+    Categories: #取名随意
+      icon: fa-solid fa-folder #图标
+      path: /categories/ #链接
+    Photo_album:
+      icon: fa-solid fa-image
+      path: /photo_album/
+    Bookmarks:
+      icon: fa-solid fa-bookmark
+      path: /bookmarks/
+      
+
     #   submenus:
     #     Link1: /link1
     #     Link2: /link2
@@ -358,7 +373,7 @@ comment:
   # Whether to enable comment
   enable: true
   # Comment system
-  system: waline # waline, gitalk, twikoo, giscus, utterances, artalk
+  system: gitalk # waline, gitalk, twikoo, giscus, utterances, artalk
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
@@ -368,13 +383,13 @@ comment:
       emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
       recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
       turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
-      reaction: false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
+      reaction: # false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
-      clientID: # GitHub Application Client ID
-      clientSecret: # GitHub Application Client Secret
-      repo: # GitHub repository
-      owner: # GitHub repository owner
+      clientID: Ov23limBce4D2aR1pUpE
+      clientSecret: e22bde4948ff62e6dbf64e7e142e7ce94576575a
+      repo: Gitalk_comments
+      owner: dengxuduo408-commits
       proxy: # GitHub repository proxy
     # Twikoo comment system. See https://twikoo.js.org/
     twikoo:
@@ -417,7 +432,7 @@ footer:
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
-  start: 2022/8/17 11:45:14
+  start: 2026/7/5 15:02:28
   # Site statistics
   statistics: true # show site statistics or not (total articles, total words)
   # Footer message
@@ -428,7 +443,7 @@ footer:
     number: # ICP record number
     url: # ICP record url
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
-
+  
 
 # INJECT >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/inject
@@ -454,13 +469,13 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
+      - name: Secret Garden # audio name
+        artist: V.A.# audio artist
+        url: https://music.163.com/song?id=5398861&uct2=U2FsdGVkX19QClR8snqhIZWU1rExWZTJK0chJlCrNwA= # audio url
+        cover: https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/79/86/647986bd-2d75-7c9a-76b4-4612da10aa9c/1.jpg/600x600bb.jpg # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
@@ -470,7 +485,7 @@ plugins:
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
-    enable: false # enable mermaid or not
+    enable: true # enable mermaid or not
     version: "11.4.1" # default v11.4.1
     theme:
       light: "default"
@@ -482,7 +497,7 @@ plugins:
 # Docs: https://redefine-docs.ohevan.com/page_templates
 page_templates:
   # Friend Links page column number
-  friends_column: 2
+  friends_column: 3
   # Tags page style
   tags_style: blur # blur, cloud
   # Masonry page batch size
