@@ -15,7 +15,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://dengxuduo408-commits.github.io/hexo_test/
+url: https://dengxuduo408-commits.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults: 
 pretty_urls:
@@ -104,8 +104,8 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/dengxuduo408-commits/dengxuduo408-commits.github.io
-  branch: main
+  repo: 
+  branch: 
 
 all_minifier: true
 
