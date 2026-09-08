@@ -462,7 +462,7 @@ plugins:
     audios:
       - name: Secret Garden # audio name
         artist: V.A.# audio artist
-        url: https://music.163.com/song?id=5398861&uct2=U2FsdGVkX19QClR8snqhIZWU1rExWZTJK0chJlCrNwA= # audio url
+        url: /music/V.A. - Secret Garden.mp3
         cover: https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/79/86/647986bd-2d75-7c9a-76b4-4612da10aa9c/1.jpg/600x600bb.jpg # audio cover url
         lrc: # audio cover lrc
 #      - name: # audio name
