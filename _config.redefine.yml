@@ -11,13 +11,13 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: 邓栩多的网站
+  title: CloudyBomb's Blog
   # Site subtitle
   subtitle: Redefine Your Hexo Journey. #没找到在哪里显示！！！
   # Author name
-  author: 邓栩多
+  author: Dylan Deng
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://redefine.dylan.com
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -25,11 +25,11 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/family_photo.jpg #站点图标路径
+  favicon: /images/logo.png #站点图标路径
   # Site logo
-  logo: /images/animal_party.jpg
+  logo: 
   # Site avatar
-  avatar: /images/redefine-avatar.svg
+  avatar: /images/logo.png
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -131,13 +131,13 @@ home_banner: #首页大封面（背景）
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/light.jpg # light mode
-    dark: /images/dark.jpg # dark mode
+    light: /images/sydney.jpg # light mode
+    dark: /images/dark forest.jpg # dark mode
   # Home banner title
-  title: 实验网站
+  title: I THINK; THEREFORE I AM.
   # Home banner subtitle
   subtitle:
-    text: ["不要把自己当作悲剧的主角", "正是修行时", "etc"] # subtitle text, array
+    text: ["不要把自己当作悲剧的主角", "正是修行时"] # subtitle text, array
     hitokoto:  # 一言配置
       enable: false # Whether to enable hitokoto
       show_author: false # Whether to show author
@@ -171,27 +171,19 @@ home_banner: #首页大封面（背景）
   # Home banner social links
   social_links:
     # Whether to enable
-    enable: false
+    enable: true
     # Social links style
     style: default # default, reverse, center
     # Social links
     links:
       - icon: github # can also be "fa-brands fa-github"
         url: http://github.com/dengxuduo408-commits
-      - icon: twitter
-        url:
-      - icon: email
-        url: you@example.com
-      - icon: telegram
-        url:
-      - icon: /images/custom-icon.svg
-        url:
+      - icon: fa-brands fa-zhihu
+        url: https://www.zhihu.com/people/19-5-67-51-79
     # Social links with QRcode drawers
     qrs:
       - icon: weixin
-        qr:
-      - icon: /images/custom-icon.svg
-        qr:
+        qr: /images/weixin.png
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -217,31 +209,27 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
-    Status: 
-      path: https://status.ohevan.com/
-      icon: fa-regular fa-chart-bar
-    About: 
-      icon: fa-regular fa-user
-      submenus:
-        Me: /about
-        Github: https://github.com/dengxuduo408-commits
-        Blog: https://ohevan.com
-        Friends: /friends
-    Friends: 
-      path: /links/
-      icon: fa-regular fa-link
+    #Status: 
+     # path: https://status.ohevan.com/
+     # icon: fa-regular fa-chart-bar
     Tags:
       path: /tags/
       icon: fa-solid fa-tags
     Categories: #取名随意
       icon: fa-solid fa-folder #图标
       path: /categories/ #链接
-    Photo_album:
-      icon: fa-solid fa-image
-      path: /photo_album/
-    Bookmarks:
-      icon: fa-solid fa-bookmark
-      path: /bookmarks/
+    About: 
+      icon: fa-regular fa-user
+      submenus:
+        Me: /about
+        Github: https://github.com/dengxuduo408-commits
+        Friends: /links/
+   # Photo_album:
+      #icon: fa-solid fa-image
+      #path: /photo_album/
+    #Bookmarks:
+      #icon: fa-solid fa-bookmark
+     # path: /bookmarks/
       
 
     #   submenus:
@@ -377,25 +365,25 @@ comment:
   # System configuration
   config:
     # Waline comment system. See https://waline.js.org/
-    waline:
-      serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
-      lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
-      emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
-      recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
-      turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
-      reaction: # false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
+    #waline:
+     # serverUrl: https://example.example.com # Waline server URL. e.g. https://example.example.com
+      #lang: zh-CN # Waline language. e.g. zh-CN, en-US. See https://waline.js.org/guide/client/i18n.html
+     # emoji: [] # Waline emojis, see https://waline.js.org/guide/features/emoji.html
+      #recaptchaV3Key: # Google reCAPTCHA v3 key. See https://waline.js.org/reference/client/props.html#recaptchav3key
+     # turnstileKey: # Turnstile key. See https://waline.js.org/reference/client/props.html#turnstilekey
+      #reaction: # false # Waline reaction. See https://waline.js.org/reference/client/props.html#reaction
     # Gitalk comment system. See https://github.com/gitalk/gitalk
     gitalk:
-      clientID: Ov23limBce4D2aR1pUpE
-      clientSecret: e22bde4948ff62e6dbf64e7e142e7ce94576575a
-      repo: Gitalk_comments
+      clientID: Ov23li8uzueuRUlIiSNr
+      clientSecret: 01bfaae3d7544d696f816d3a633bc72726b93d31
+      repo: hexo_comments
       owner: dengxuduo408-commits
       proxy: # GitHub repository proxy
     # Twikoo comment system. See https://twikoo.js.org/
-    twikoo:
-      version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
-      server_url: # Twikoo server URL. e.g. https://example.example.com
-      region: # Twikoo region. can be empty
+    #twikoo:
+     # version: 1.6.10 # Twikoo version, do not modify if you dont know what it is
+     # server_url: # Twikoo server URL. e.g. https://example.example.com
+     # region: # Twikoo region. can be empty
     # Giscus comment system. See https://giscus.app/
     giscus:
       repo: # Github repository name e.g. EvanNotFound/hexo-theme-redefine
@@ -409,18 +397,18 @@ comment:
       lang: en # Giscus language. e.g. en, zh-CN, zh-TW
       input_position: bottom # Place the comment box above/below the comments. e.g. top, bottom
       loading: lazy # Load the comments lazily
-    # Artalk comment system. See https://artalk.js.org/
-    artalk:
-      server: # Artalk server URL. e.g. https://artalk.example.com
-      site: # Site name shown in Artalk admin (should match server-side site config)
+      #Artalk comment system. See https://artalk.js.app/
+    #artalk:
+     # server: # Artalk server URL. e.g. https://artalk.example.com
+     # site: # Site name shown in Artalk admin (should match server-side site config)
     # Utterances comment system. See https://utteranc.es/
-    utterances:
-      repo: # GitHub repository name e.g. owner/repo (Issues must be enabled)
-      issue_term: pathname # pathname, url, title, og:title (recommended: pathname for single-page mode)
-      issue_number: # Use a specific issue number instead of issue_term
-      label: # Optional label for created issues
-      theme_light: github-light # Light theme
-      theme_dark: github-dark # Dark theme
+   # utterances:
+    #  repo: # GitHub repository name e.g. owner/repo (Issues must be enabled)
+     # issue_term: pathname # pathname, url, title, og:title (recommended: pathname for single-page mode)
+     # issue_number: # Use a specific issue number instead of issue_term
+     # label: # Optional label for created issues
+     # theme_light: github-light # Light theme
+     # theme_dark: github-dark # Dark theme
 # COMMENT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
