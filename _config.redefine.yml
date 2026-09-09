@@ -461,15 +461,25 @@ plugins:
     type: fixed # fixed, mini
     audios:
       - name: Secret Garden # audio name
-        artist: V.A.# audio artist
+        artist: V.A. # audio artist
         url: /music/V.A. - Secret Garden.mp3
         cover: https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/64/79/86/647986bd-2d75-7c9a-76b4-4612da10aa9c/1.jpg/600x600bb.jpg # audio cover url
         lrc: # audio cover lrc
-#      - name: # audio name
-#        artist: # audio artist
-#        url: # audio url
-#        cover: # audio cover url
-#        lrc: # audio cover lrc
+      - name: This Autumn 
+        artist: Red Garland Trio # audio artist
+        url: /music/Red Garland Trio - 'Tis Autumn.mp3 # audio url
+        cover: /images/This Autumn.png # audio cover url
+        lrc: # audio cover lrc
+      - name: 碓氷拓海 
+        artist: 前口渉 # audio artist
+        url: /music/前口渉 - 碓氷拓海.mp3 # audio url
+        cover: /images/拓海.png # audio cover url
+        lrc: # audio cover lrc
+      - name: That's All 
+        artist: Barney Kessel # audio artist
+        url: /music/Barney Kessel - That's All.mp3 # audio url
+        cover: /images/That is All.png # audio cover url
+        lrc: # audio cover lrc        
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
