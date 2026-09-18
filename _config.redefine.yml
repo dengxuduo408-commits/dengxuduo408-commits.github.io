@@ -437,10 +437,21 @@ footer:
 # Docs: https://redefine-docs.ohevan.com/inject
 inject:
   # Whether to enable inject
-  enable: false
+  enable: true
   # Inject custom head html code
-  head: 
-    -
+  head:
+    - |
+      <style>
+        /* 仅文章正文里的a链接生效，导航栏不受影响 */
+        .article-content a {
+          color: #0645ad !important;
+        }
+        .article-content a:hover {
+          color: #bb1122 !important;
+          text-decoration: underline;
+        }
+      </style>
+
     -
   # Inject custom footer html code
   footer:
