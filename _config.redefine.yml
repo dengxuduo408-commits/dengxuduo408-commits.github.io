@@ -15,9 +15,9 @@ info:
   # Site subtitle
   subtitle: Redefine Your Hexo Journey. #没找到在哪里显示！！！
   # Author name
-  author: Dylan Deng
+  author: Xuduo Deng
   # Site URL
-  url: https://redefine.dylan.com
+  url: https://redefine.Xuduo.com
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -180,6 +180,8 @@ home_banner: #首页大封面（背景）
         url: http://github.com/dengxuduo408-commits
       - icon: fa-brands fa-zhihu
         url: https://www.zhihu.com/people/19-5-67-51-79
+      - icon: fa-solid fa-z
+        url: https://www.zotero.org/groups/6684157/lcaio
     # Social links with QRcode drawers
     qrs:
       - icon: weixin
