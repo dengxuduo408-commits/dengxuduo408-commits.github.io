@@ -1,5 +1,5 @@
 ---
-title: Friends
+title: 友情链接
 date: 2026-07-05 15:23:18
 template: links
 ---
