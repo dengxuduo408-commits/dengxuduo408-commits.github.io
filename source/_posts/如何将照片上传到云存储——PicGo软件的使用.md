@@ -5,7 +5,7 @@ tags:
   - 照片
 categories:
   - 软件使用
-thumbnail: "https://cdn.jsdelivr.net/gh/dengxuduo408-commits/image-bed@main/img/20261122010119490.jpg"
+thumbnail: "https://cdn.jsdelivr.net/gh/dengxuduo408-commits/image-bed@main/img/20261122110857041.jpg"
 date: 2026-11-22 00:58:59
 ---
 # 基本概念介绍
